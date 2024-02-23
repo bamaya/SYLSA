@@ -21,7 +21,7 @@
             <img src="public/img/logo2.png">
         </div>
         <div class="login-content">
-            <form method="POST" action="inicio.php">
+            <form method="POST" action="vista/inicio.php">
                 <img src="public/img/avatar.svg">
                 <h2 class="title">BIENVENIDO</h2>
                 <!-- AQUI VA EL MENSAJE DE ERROR -->
