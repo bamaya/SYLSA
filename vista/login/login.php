@@ -24,12 +24,7 @@
             <form method="POST" action="">
                <img src="img/avatar.svg">
                 <h2 class="title">BIENVENIDO</h2>
-                <?php
-                
-                include "../../modelo/conexion.php";
-                include "../../controlador/controlador.php";
-                
-                ?> 
+                             
                 <div class="input-div one">
                     <div class="i">
                         <i class="fas fa-user"></i>
@@ -65,7 +60,7 @@
                 </div>
                 <input name="btningresar" class="btn" title="click para ingresar" type="submit"
                     value="INICIAR SESION">
-            </form> 
+            </form>
         </div>
     </div>
     <script src="js/fontawesome.js"></script>
