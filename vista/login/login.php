@@ -22,7 +22,7 @@
         </div>
         <div class="login-content">
             <form method="POST" action="">
-               <! -- <img src="img/avatar.svg">
+               <img src="img/avatar.svg">
                 <h2 class="title">BIENVENIDO</h2>
                              
                 <div class="input-div one">
