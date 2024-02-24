@@ -181,7 +181,7 @@ a:hover{
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background: #04a1fc;
+	background: #c13f45;
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;
@@ -193,7 +193,7 @@ a:hover{
 }
 .btn:hover{
 	background-position: right;
-	background: #142e3d;
+	background: #943035;
 	color: wheat;
 }
 
