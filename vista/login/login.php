@@ -21,16 +21,15 @@
             <img src="img/logo2.png">
         </div>
         <div class="login-content">
-            <form method="POST" action="../inicio.php">
+            <form method="POST" action="">
                 <img src="img/avatar.svg">
                 <h2 class="title">BIENVENIDO</h2>
-                <!-- AQUI VA EL MENSAJE DE ERROR -->
-                    <!-- <div class="alert alert-warning alert-dismissible fade show mb-0" role="alert">
-                        <small>mensaje de error</small>
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div> -->                
+                <?php
+                
+                include "../../modelo/conexion.php";
+                include "../../controlador/controlador.php";
+                
+                ?>              
                 <div class="input-div one">
                     <div class="i">
                         <i class="fas fa-user"></i>

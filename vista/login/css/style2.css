@@ -7,7 +7,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
-	
 }
 
 .wave{
@@ -104,7 +103,7 @@ form{
 	bottom: -2px;
 	width: 0%;
 	height: 2px;
-	background-color: #04a1fc;
+	background-color: #c13f45;
 	transition: .4s;
 }
 
@@ -126,7 +125,7 @@ form{
 }
 
 .input-div.focus > .i > i{
-	color: #04a1fc;
+	color: #c13f45;
 }
 
 .input-div > div > input{
@@ -172,7 +171,7 @@ a{
 }
 
 a:hover{
-	color: #04a1fc;
+	color: #c13f45;
 }
 
 .btn{
@@ -194,7 +193,7 @@ a:hover{
 }
 .btn:hover{
 	background-position: right;
-	background: #912f34;
+	background: #963035;
 	color: wheat;
 }
 

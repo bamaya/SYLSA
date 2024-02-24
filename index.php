@@ -1,82 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+session_start();
+if (empty($_SESSION['user']) and empty($_SESSION['clave'])) {
+    header('location:./vista/login/login.php');
+}else{
+/* consulta para los datos en e inicio */
+//include './modelo/conexion.php';
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="public/Style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/all.min.css"> -->
-    <!-- <link rel="stylesheet" href="css/fontawesome.min.css"> -->
-    <link href="https://tresplazas.com/web/img/big_punto_de_venta.png" rel="shortcut icon">
-    <title>Inicio de sesión</title>
-</head>
-
-<body>
-    <img class="wave" src="public/img/wave2.png">
-    <div class="container">
-        <div class="img">
-            <img src="public/img/logo2.png">
-        </div>
-        <div class="login-content">
-            <form method="POST" action="vista/inicio.php">
-                <img src="public/img/avatar.svg">
-                <h2 class="title">BIENVENIDO</h2>
-                <!-- AQUI VA EL MENSAJE DE ERROR -->
-                    <!-- <div class="alert alert-warning alert-dismissible fade show mb-0" role="alert">
-                        <small>mensaje de error</small>
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div> -->                
-                <div class="input-div one">
-                    <div class="i">
-                        <i class="fas fa-user"></i>
-                    </div>
-                    <div class="div">
-                        <h5>Usuario</h5>
-                        <input id="usuario" type="text"
-                            class="input" name="usuario"
-                            title="ingrese su nombre de usuario" autocomplete="usuario" value="">
-
-
-                    </div>
-                </div>
-                <div class="input-div pass">
-                    <div class="i">
-                        <i class="fas fa-lock"></i>
-                    </div>
-                    <div class="div">
-                        <h5>Contraseña</h5>
-                        <input type="password" id="input" class="input"
-                            name="password" title="ingrese su clave para ingresar" autocomplete="current-password">
-
-
-                    </div>
-                </div>
-                <div class="view">
-                    <div class="fas fa-eye verPassword" onclick="vista()" id="verPassword"></div>
-                </div>
-
-
-                <div class="text-center">
-                    <a class="font-italic isai5" href="">Olvidé mi contraseña</a>
-                </div>
-                <input name="btningresar" class="btn" title="click para ingresar" type="submit"
-                    value="INICIAR SESION">
-            </form>
-        </div>
-    </div>
-    <script src="js/fontawesome.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/main2.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-
-</body>
-
-</html>
-
+// $codigo = $_SESSION['id'];
+// $consulta2 = $conexion->query(" select *from usuario where id_usuario=$codigo ");
+// $datos2 = $consulta2->fetch_object();
+header('location:./vista/inicio.php');
+}
