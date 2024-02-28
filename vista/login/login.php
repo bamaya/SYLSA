@@ -25,7 +25,8 @@
                <img src="img/avatar.svg">
                 <h2 class="title">BIENVENIDO</h2>
                 <?php
-                
+                include "../../modelo/conexion.php";
+                include "../../controlador/controlador.php";
                 ?>          
                 <div class="input-div one">
                     <div class="i">
