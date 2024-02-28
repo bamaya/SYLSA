@@ -24,7 +24,9 @@
             <form method="POST" action="">
                <img src="img/avatar.svg">
                 <h2 class="title">BIENVENIDO</h2>
-                             
+                <?php
+                
+                ?>          
                 <div class="input-div one">
                     <div class="i">
                         <i class="fas fa-user"></i>
