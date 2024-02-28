@@ -24,10 +24,8 @@
             <form method="POST" action="">
                <img src="img/avatar.svg">
                 <h2 class="title">BIENVENIDO</h2>
-                <?php
-                include "../../modelo/conexion.php";
-                include "../../controlador/controlador.php";
-                ?>          
+                <?php include('../../modelo/conexion.php'); ?>
+                <?php include('../../controlador/controlador.php'); ?>         
                 <div class="input-div one">
                     <div class="i">
                         <i class="fas fa-user"></i>
@@ -37,8 +35,6 @@
                         <input id="usuario" type="text"
                             class="input" name="usuario"
                             title="ingrese su nombre de usuario" autocomplete="usuario" value="">
-
-
                     </div>
                 </div>
                 <div class="input-div pass">
