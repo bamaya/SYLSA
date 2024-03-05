@@ -2,10 +2,10 @@
             
             <ul class="side-menu-list p-0">
                 <li class="red">
-                    <a href="inicio.php" class="">
-                        <img src="../public/img-inicio/house.png" class="img-inicio" alt="">
+                    <a href="inicio.php" class="activo">
+                        <img src="../public/img-inicio/programar.png" class="img-inicio" alt="">
                         <!-- <i class="fas fa-house-user"></i> -->
-                        <span class="lbl">INICIO</span>
+                        <span class="lbl">ASISTENCIAS</span>
                     </a>
                 </li>
 
