@@ -17,9 +17,8 @@
     <h4 class="text-center text-secondary">REGISTRO DE EMPLEADOS</h4>
 
     <?php
-    include "../modelo/conexion.php";
-    $sql=$conexion->query("SELECT * FROM sylsa_personal.empleados")
-
+    include('../modelo/conexion.php');
+    $sql=$conexion->query("SELECT * FROM u484202321_sylsa_personal.empleados");
     ?>
 
     <table class="table table-bordered table-hover col-12" id="example">
