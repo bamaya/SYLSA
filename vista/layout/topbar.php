@@ -7,6 +7,7 @@
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
         <meta content="ie=edge" http-equiv="x-ua-compatible">
+        <link rel="icon" href="../public/images/icons/icon.ico" sizes="144x144">
         <title>Empleados y Maquinaria SYLSA</title>
 
 

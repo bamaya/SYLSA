@@ -11,6 +11,7 @@
     <!-- <link rel="stylesheet" href="css/all.min.css"> -->
     <!-- <link rel="stylesheet" href="css/fontawesome.min.css"> -->
     <link href="https://tresplazas.com/web/img/big_punto_de_venta.png" rel="shortcut icon">
+    <link rel="icon" href="../../public/images/icons/icon.ico" sizes="144x144">
     <title>Inicio de sesión</title>
 </head>
 
