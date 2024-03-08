@@ -38,10 +38,18 @@
                 </li>
 
                 <li class="red">
+                    <a href="maquinaria.php" class="">
+                        <img src="../public/img-inicio/maquinaria.png" class="img-inicio" alt="">
+                        <!-- <i class="fas fa-exclamation"></i> -->
+                        <span class="lbl">EQUIPO</span>
+                    </a>
+                </li>
+
+                <li class="red">
                     <a href="acerca.php" class="">
                         <img src="../public/img-inicio/info.png" class="img-inicio" alt="">
                         <!-- <i class="fas fa-exclamation"></i> -->
-                        <span class="lbl">ACERCA DE</span>
+                        <span class="lbl">ACERCA DE </span>
                     </a>
                 </li>
 

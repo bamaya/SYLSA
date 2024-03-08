@@ -5,18 +5,20 @@
   }
 
 ?>
-
+<!-- primero se carga el topbar -->
 <?php require('./layout/topbar.php'); ?>
+<!-- luego se carga el sidebar -->
 <?php require('./layout/sidebar.php'); ?>
 
-
+<!-- inicio del contenido principal -->
 <div class="page-content">
 
-    PAGINA DE ACERCA DE
+    PAGINA DE MAQUINARIA
 
 </div>
 </div>
+<!-- fin del contenido principal -->
 
 
-
+<!-- por último se carga el footer -->
 <?php require('./layout/footer.php'); ?>
